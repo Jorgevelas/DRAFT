@@ -1,0 +1,82 @@
+:root {
+    --bg: #050505;
+    --accent: #ffffff;
+    --border: #222;
+}
+
+body {
+    background: var(--bg);
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app {
+    width: 900px;
+    text-align: center;
+}
+
+.main-title {
+    color: var(--accent);
+    font-weight: 200;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    background: #0a0a0a;
+    border: 1px solid var(--border);
+    color: white;
+    padding: 12px;
+    width: 280px;
+    outline: none;
+}
+
+button {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ccc;
+}
+
+.btn-danger {
+    background: #333;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background: #555;
+}
+
+canvas {
+    background: #0a0a0a;
+    border: 1px solid var(--border);
+    cursor: crosshair;
+    border-radius: 4px;
+}
+
+.hint {
+    font-size: 11px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}

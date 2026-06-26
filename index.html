@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AXIS | Decision Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1 class="main-title">DRAFT DECISION MAP</h1>
+
+        <div class="control-panel">
+            <input type="text" id="nodeInput" placeholder="Nombre de la decisión..." autocomplete="off">
+            <button id="addNodeBtn">Añadir</button>
+            <button id="editNodeBtn">Editar Selección</button>
+            <button id="deleteNodeBtn" class="btn-danger">Borrar</button>
+        </div>
+
+        <canvas id="canvas"></canvas>
+        <p class="hint">Selecciona un nodo (paso) para editar o borrar • Usa los botones</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
